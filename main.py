@@ -38,7 +38,8 @@ screen.colormode(255)  # Enable 255 RGB color mode
 
 # Create the turtle object
 t = Turtle()
-t.speed("fast")  # Increase the speed of pen for faster drawing
+t.hideturtle()  # To hide the turtle
+t.speed("fastest")  # Increase the speed of pen for faster drawing
 t.penup()  # Lift the pen so it doesn't draw while moving
 t.goto(-250, -250)  # Move the turtle to the starting position
 
